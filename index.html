@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap"
       rel="stylesheet"
     />
     <link
@@ -31,77 +31,64 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <section class="header-section">
-        <div class="header-container container">
-          <p class="header">UKRAINE</p>
+    <header></header>
+    <main>
+      <section class="section">
+        <div class="container">
+          <div class="test">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere ea excepturi est
+              velit doloremque fuga vitae possimus eos itaque beatae nemo, praesentium atque sunt
+              accusamus eligendi libero autem corporis quisquam!
+            </p>
+          </div>
         </div>
       </section>
-    </header>
-    <main>
-      <section class="section-one">
+      <section class="reviews section">
         <div class="container">
-          <div class="photoslider variable-width">
-            <figure>
-              <div class="photo photo-a">
-                <img src="./images/photo-a.jpg" alt="Ukrainian Photo" width="640" />
+          <div class="gallery-reviews">
+            <!-- gallery -->
+            <h2 class="visually-hidden">Gallery</h2>
+            <div class="gallery__slider gallery-js">
+              <div class="gallery__item">
+                <img class="gallery__image" src="./images/ic1.jpg" alt="qwerty" />
               </div>
-              <figcaption class="label">Все буде Україна</figcaption>
-            </figure>
-            <figure>
-              <div class="photo photo-b">
-                <img src="./images/photo-b.jpg" alt="Ukrainian Photo" width="640" />
+              <div class="gallery__item">
+                <img class="gallery__image" src="./images/ic2.jpg" alt="qwerty" />
               </div>
-              <figcaption class="label">Все буде Україна</figcaption>
-            </figure>
-            <figure>
-              <div class="photo photo-c">
-                <img src="./images/photo-c.jpg" alt="Ukrainian Photo" width="640" />
+              <div class="gallery__item">
+                <img class="gallery__image" src="./images/ic3.jpg" alt="qwerty" />
               </div>
-              <figcaption class="label">Все буде Україна</figcaption>
-            </figure>
-            <!-- <figure>
-              <div class="photo photo-d">
-                <img src="./images/photo-d.jpg" alt="Ukrainian Photo" width="640" />
+            </div>
+            <!-- reviews -->
+            <h2 class="visually-hidden">Reviews</h2>
+            <div class="reviews__slider reviews-js">
+              <div class="reviews__block">
+                <img class="photo" src="./images/emily.jpg" alt="photo" width="85" />
+                <p class="reviews__statement">
+                  I love visiting your cafe.<br />You prepare the most delicious ice cream in Los
+                  Angeles!<br />In addition, you have beautiful serving, cozy atmosphere and polite
+                  staff.
+                </p>
+                <p class="reviews__name">Emily, Los Angeles</p>
               </div>
-              <figcaption class="label">Все буде Україна</figcaption>
-            </figure>
-            <figure>
-              <div class="photo photo-e">
-                <img src="./images/photo-e.jpg" alt="Ukrainian Photo" width="640" />
+              <div class="reviews__block">
+                <img class="photo" src="./images/bryan.jpg" alt="photo" width="85" />
+                <p class="reviews__statement">
+                  Every day we come to you with friends after classes in college.<br />We love your
+                  ice cream and casual atmosphere!
+                </p>
+                <p class="reviews__name">Bryan, New-York</p>
               </div>
-              <figcaption class="label">Все буде Україна</figcaption>
-            </figure>
-            <figure>
-              <div class="photo photo-f">
-                <img src="./images/photo-f.jpg" alt="Ukrainian Photo" width="640" />
+              <div class="reviews__block">
+                <img class="photo" src="./images/diana.jpg" alt="photo" width="85" />
+                <p class="reviews__statement">
+                  Ice cream is my passion!<br />I love your chocolate hazelnut ice cream!<br />And I
+                  really like the excellent service - always served politely and quickly!
+                </p>
+                <p class="reviews__name">Diana, Chicago</p>
               </div>
-              <figcaption class="label">Все буде Україна</figcaption>
-            </figure>
-            <figure>
-              <div class="photo photo-j">
-                <img src="./images/photo-g.jpg" alt="Ukrainian Photo" width="640" />
-              </div>
-              <figcaption class="label">Все буде Україна</figcaption>
-            </figure> -->
-            <!-- <figure>
-              <div class="photo photo-h">
-                <img src="./images/photo-h.jpg" alt="Ukrainian Photo" width="640" />
-              </div>
-              <figcaption class="label">Все буде Україна</figcaption>
-            </figure>
-            <figure>
-              <div class="photo photo-k">
-                <img src="./images/photo-k.jpg" alt="Ukrainian Photo" width="640" />
-              </div>
-              <figcaption class="label">Все буде Україна</figcaption>
-            </figure>
-            <figure>
-              <div class="photo photo-l">
-                <img src="./images/photo-l.jpg" alt="Ukrainian Photo" width="640" />
-              </div>
-              <figcaption class="label">Все буде Україна</figcaption>
-            </figure> -->
+            </div>
           </div>
         </div>
       </section>
@@ -113,6 +100,7 @@
       type="text/javascript"
       src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
     ></script>
-    <script src="./js/slider.js"></script>
+    <script src="./js/gallery.js"></script>
+    <script src="./js/reviews.js"></script>
   </body>
 </html>
