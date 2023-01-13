@@ -93,8 +93,10 @@ section {
 }
 
 .container {
+  width: 480px;
   padding-left: 20px;
   padding-right: 20px;
+  margin: 0 auto;
 }
 
 button {
@@ -250,4 +252,22 @@ button {
 .slick-dots li.slick-active button:before {
   opacity: 1;
   color: #84a178;
+}
+
+.section-zero {
+  padding: 0;
+}
+
+.container-zero {
+  position: relative;
+}
+
+.test-zero {
+  width: auto;
+  height: auto;
+  background-color: red;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
 }
